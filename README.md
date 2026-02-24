@@ -1,20 +1,64 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# RVL Movers - Fleet Command Center
 
-# Run and deploy your AI Studio app
+A high-performance, real-time fleet operations and logistics management system designed for **RVL Movers Corporation**. This dashboard provides comprehensive tracking, analytics, and driver management to optimize long-haul and last-mile delivery operations in the Philippines.
 
-This contains everything you need to run your app locally.
+## 🚀 Key Features
 
-View your app in AI Studio: https://ai.studio/apps/drive/1jUykQZ_9SREVj8dCVIB1xBw0C1J6262b
+- **Real-time Fleet Tracking**: Monitor vehicle positions (simulated GPS), status, and progress on an interactive map.
+- **Operations Dashboard**: High-level overview of active deployments, on-time delivery rates, and daily fuel efficiency metrics.
+- **Dispatch & Job Management**: Create new transport jobs, assign drivers, and manage warehouse loading/unloading sequences.
+- **AI-Powered Diagnostics**: Integrated Gemini AI insights for maintenance alerts and route optimization.
+- **Driver Management**: Complete profiles, trip history, and performance ratings for the entire crew.
+- **Financial Tracking**: Real-time monitoring of fuel costs, toll expenses (AutoSweep/EasyTrip), and labor.
+- **Driver Mobile Simulation**: Dedicated interface for drivers to log fuel, report issues, and update trip status.
 
-## Run Locally
+## 🛠️ Tech Stack
 
-**Prerequisites:**  Node.js
+- **Frontend**: React 19, TypeScript
+- **Styling**: Tailwind CSS
+- **Icons**: Lucide React
+- **Charts**: Recharts
+- **Intelligence**: Google Gemini AI (@google/genai)
+- **Build Tool**: Vite
 
+## 📦 Getting Started
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+### Prerequisites
+
+- **Node.js**: (v18 or higher recommended)
+- **Gemini API Key**: Required for AI-powered reports and diagnostics.
+
+### Installation
+
+1. **Clone the repository**:
+   ```bash
+   cd rvl-movers---real-time-reporting
+   ```
+
+2. **Install dependencies**:
+   ```bash
+   npm install
+   ```
+
+3. **Configure Environment**:
+   Ensure you have a `.env.local` file in the root directory with your Gemini API key:
+   ```env
+   GEMINI_API_KEY=your_api_key_here
+   ```
+
+4. **Launch Development Server**:
+   ```bash
+   npm run dev
+   ```
+
+## 📋 Operations Guide
+
+- **Dashboard**: Use the main dashboard to track overall performance and active vehicle stats.
+- **Fleet/Vehicles**: Manage the inventory of Car Carriers, Wingvans, and Closed Vans.
+- **Drivers**: Maintain the driver roster and simulate mobile app interactions.
+- **Reports**: Generate detailed operational reports and performance analytics.
+- **Settings**: Configure company details, fuel prices, and notification preferences.
+
+---
+
+*Note: This system is built for internal operational use by RVL Movers Corporation.*

@@ -1,7 +1,0 @@
-{
-  "name": "RVL Movers - Real-time Reporting",
-  "description": "Comprehensive fleet management dashboard for RVL Movers Philippines tracking trip costs, vehicle status, and logistics performance.",
-  "requestFramePermissions": [
-    "geolocation"
-  ]
-}
